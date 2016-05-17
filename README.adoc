@@ -1,0 +1,6 @@
+= DeskOS: fdk-aac RPM
+
+This is the _fdk-aac_ RPM package for the *DeskOS* operating system.
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/fdk-aac-0.1.4-1.src.rpm[fdk-aac-0.1.4-1.src.rpm]

@@ -1,6 +1,6 @@
 Name:           fdk-aac
 Version:        0.1.4
-Release:        1
+Release:        2%{?dist}
 Summary:        Fraunhofer FDK AAC Codec Library
 
 License:        FDK-AAC
@@ -61,6 +61,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Sat May 14 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1.4-2
+- Rebuilt for DeskOS
+
 * Tue Mar 22 2016 Nux <rpm@li.nux.ro> - 0.1.4-1
 - update to 0.1.4
 
